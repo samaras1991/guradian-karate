@@ -1,3 +1,4 @@
+@Regression1
 Feature: End to End Test for account creation
 
   Background: Setup test and generate token

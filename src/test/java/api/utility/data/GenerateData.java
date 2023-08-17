@@ -108,6 +108,8 @@ public class GenerateData {
 
 	    public static void main(String[] args) {
 	        System.out.println("Phone Number: " + RandomPhoneNumber());
+	        
+	        System.out.println(addressGenerator("cityValue"));
 	    }
 	}
 
