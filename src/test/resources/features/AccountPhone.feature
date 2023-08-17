@@ -13,7 +13,7 @@ Feature: Create Account and Add Phone Number
     And param primaryPersonId = createdAccountId
     And header Authorization = "Bearer " + validToken
     * def dataGenerator = Java.type('api.utility.data.GenerateData')
-    * def phoneNumber = dataGenerator.getPhoneNumber()
+    * def phoneNumber = dataGenerator.RandomPhoneNumber()
     And request
       """
       {
