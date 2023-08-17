@@ -6,6 +6,8 @@ import com.github.javafaker.Faker;
 public class GenerateData {
 	
 	
+	
+	
 	public static String addressGenerator(String input) {
 
         Faker faker = new Faker();
