@@ -6,7 +6,7 @@ Feature: End to End Test for account creation
     * def result = callonce read('GenerateToken.feature')
     * def validToken = result.response.token
     #Step 2) Create New Account
-    * def createAccountResult = callonce read('CreateAccount.feature')
+    * def createAccountResult = callonce read('CreateAccount1.feature')
     * def createdAccountId = createAccountResult.response.id
     * def dataGenerator = Java.type('api.utility.data.GenerateData')
     * def phoneNumber = dataGenerator.RandomPhoneNumber()

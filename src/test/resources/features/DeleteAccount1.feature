@@ -4,7 +4,7 @@
 Feature: Delete Account functionality
 
   Background: Test Setup and Create New Account.
-    * def createAccount = callonce read('CreateAccount.feature')
+    * def createAccount = callonce read('CreateAccount1.feature')
     * def validToken = createAccount.validToken
     * def createdAccountId = createAccount.response.id  
     And print createAccount

@@ -3,7 +3,7 @@ Feature: Create Account and Add Phone Number
 
   Background: Setup Test and Create Account
     Given url "https://tek-insurance-api.azurewebsites.net"
-    * def createAccountResult = callonce read('CreateAccount.feature')
+    * def createAccountResult = callonce read('CreateAccount1.feature')
     And print createAccountResult
     * def validToken = createAccountResult.validToken
     * def createdAccountId = createAccountResult.response.id
